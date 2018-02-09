@@ -19,6 +19,7 @@ class Csv2Json(object):
             csv_path (str): Path to the CSV input file.
             json_path (str): Path to the JSON output file.
             has_header (bool): Does the CSV file have a header.
+            pretty_print (bool): Pretty JSON formatting enabled.
         """
 
         csv_array: List = []
