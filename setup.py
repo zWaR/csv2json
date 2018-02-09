@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="csv2json",
-    version="1.0.0",
+    version="1.0.1",
     description="A tool for csv to json file conversion",
     author="zWaR",
     author_email="zwar@sharklasers.com",
@@ -13,7 +13,7 @@ setup(
         "Programming Language :: Python :: 3.6"
     ],
     keywords="csv json conversion tool",
-    packages=["src"],
+    packages=["csv2json"],
     setup_requires=["pytest-runner"],
     tests_require=["pytest", "pytest-cov", "pyfakefs", "pytest-mypy"],
     url="https://github.com/zWaR/csv2json",
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "csv2json = src.main:main"
+            "csv2json = csv2json.main:main"
         ]
     }
 )

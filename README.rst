@@ -36,9 +36,9 @@ Usage
 
 Module can also be imported to your source code::
 
-    import Src2Json
+    import csv2json
 
-    Src2Json().run(
+    csv2json.run(
         csv_file_path: str, 
         json_file_path: str, 
         has_header: bool = False, 
