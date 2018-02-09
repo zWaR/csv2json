@@ -2,13 +2,13 @@
 from setuptools import setup
 
 setup(
-    name="csv2json",
+    name="csv_2_json",
     version="1.0.1",
     description="A tool for csv to json file conversion",
     author="zWaR",
     author_email="zwar@sharklasers.com",
     classifiers=[
-        "Indetend Audience :: Developers",
+        "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.6"
     ],

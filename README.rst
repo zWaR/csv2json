@@ -11,7 +11,7 @@ Installation
 
 ::
 
-    pip install csv2json
+    pip install csv-2-json
 
 
 -----
