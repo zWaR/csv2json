@@ -9,7 +9,8 @@ Support for python 3.6+
 Installation
 ------------
 
-.. clode-block:: shell
+::
+
     pip install csv2json
 
 
