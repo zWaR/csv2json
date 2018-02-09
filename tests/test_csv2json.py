@@ -3,7 +3,7 @@ import json
 from typing import Dict
 from typing import List
 
-from src.csv2json import Csv2Json
+from csv2json.csv2json import Csv2Json
 from pyfakefs.fake_filesystem import FakeFilesystem
 
 

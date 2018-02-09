@@ -1,6 +1,6 @@
 import pytest
 
-from src.csv2json import Csv2Json
+from csv2json.csv2json import Csv2Json
 
 @pytest.fixture
 def csv2json():
